@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Casino</title>
+  <style>
+    /* Add some style to the UI */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .balance {
+      font-size: 24px;
+      font-weight: bold;
+      color: green;
+      float: right;
+    }
+    .game-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .game {
+      width: 30%;
+      text-align: center;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding: 20px;
+      cursor: pointer;
+    }
+    .game img {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    .game h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: gray;
+      font-size: 18px;
+    }
+    .game p {
+      margin: 0;
+      font-size: 14px;
+      color: gray;
+    }
+    .game.selected {
+      border-color: blue;
+    }
+    .game-controls {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .bet-amount {
+      font-size: 24px;
+      font-weight: bold;
+      color: gray;
+    }
+    .bet-controls {
+      display: flex;
+      align-items: center;
+    }
+    .bet-control {
+      width: 30px;
+      height: 30px;
+      border: 1px solid lightgray;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .bet-control:hover {
+      background-color: lightgray;
+    }
+    .bet-control.selected {
+      background-color: blue;
+      color: white;
+    }
+    .play-button {
+      width: 120px;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      background-color: blue;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .play-button:hover {
+      background-color: #0070ba;
+    }
+    .play-button:disabled {
+      background-color: lightgray;
+      cursor: default;
+    }
+    .result {
+      margin-top: 20px;
+      font
